@@ -3,7 +3,7 @@ import { gql } from 'graphql-request'
 
 /** @type {import('./$types').PageServerLoad} */
 export async function load({ params }) {
-	const query = gql`
+  const query = gql`
       query GetProjects {
         projects {
           name
@@ -18,11 +18,11 @@ export async function load({ params }) {
       }
     `
 
-	const { projects } = await client.request(query)
+  const { projects } = await client.request(query)
 
-	return {
-		data: {
-			projects
-		}
-	};
+  return {
+    data: {
+      projects
+    }
+  };
 }

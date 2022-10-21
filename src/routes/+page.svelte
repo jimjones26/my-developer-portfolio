@@ -1,5 +1,5 @@
 <script>
-	import ProjectCard from '../lib/components/project-card.svelte'
+	import ProjectCard from '../lib/components/project-card.svelte';
 	/** @type {import('./$types').PageData} */
 	export let data;
 </script>
