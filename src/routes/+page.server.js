@@ -1,5 +1,4 @@
 import { client } from '$lib/graphql-client'
-import { gql } from 'graphql-request'
 import { authorsQuery, projectsQuery } from '$lib/graphql-queries'
 
 /** @type {import('./$types').PageServerLoad} */

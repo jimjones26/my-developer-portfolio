@@ -19,6 +19,7 @@
 		"daisyui": "^2.33.0",
 		"graphql": "^16.6.0",
 		"graphql-request": "^5.0.0",
+		"marked": "^4.1.1",
 		"postcss": "^8.4.14",
 		"postcss-load-config": "^4.0.1",
 		"prettier": "^2.6.2",
